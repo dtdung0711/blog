@@ -1,8 +1,8 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: "Blog Cá Nhân - Duxng",
+  title: 'Blog Cá Nhân - Duxng',
   author: 'Đặng Dũng',
-  headerTitle: "Blog của Dũng",
+  headerTitle: 'Blog của Dũng',
   description: 'Exploring Tech and more',
   language: 'en-us',
   theme: 'dark', // system, dark or light

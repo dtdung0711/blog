@@ -47,7 +47,7 @@ export default function Home({ posts }) {
             Mới nhất
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-          Khám phá các bài viết mới nhất.
+            Khám phá các bài viết mới nhất.
           </p>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
