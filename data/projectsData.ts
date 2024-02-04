@@ -30,7 +30,7 @@ const projectsData: ProjectDataProps[] = [
       'Ghi chú 1 lần là một công cụ tạo ghi chú trực tuyến. Nó có chức năng tự huỷ ghi chú sau khi có một ai khác đọc xong, bạn có thể tạo ghi chú và chia sẻ liên kết ghi chú cho người khác. Ngoài ra nó còn có chức năng thông báo về Email của chủ sở hữu ghi chú khi có ai đó đọc xong ghi chú và còn nhiều tính năng khác.',
     imgSrc: '/static/images/ghi-chu-1-lan.png',
     href: 'http://cristiano.rf.gd',
-    techStack: ['PHP', 'Html', 'Css', 'JavaScript'],
+    techStack: ['Docker', 'Html', 'Css', 'JavaScript'],
   },
   {
     title: 'Stikked: Một công cụ lưu trữ mã Code',
