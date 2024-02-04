@@ -46,5 +46,5 @@
 	  'PHP',
 	  'Html',
 	  'Css',
-	  'Js',
+	  'Js'
 	]
