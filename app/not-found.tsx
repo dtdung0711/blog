@@ -10,9 +10,11 @@ export default function NotFound() {
       </div>
       <div className="max-w-md">
         <p className="mb-4 text-xl font-bold leading-normal md:text-2xl">
-        Xin lỗi tôi không thể tìm thấy trang này.
+          Xin lỗi tôi không thể tìm thấy trang này.
         </p>
-        <p className="mb-8">Nhưng đừng lo lắng, bạn có thể tìm thấy nhiều thứ khác trên trang chủ của tôi.</p>
+        <p className="mb-8">
+          Nhưng đừng lo lắng, bạn có thể tìm thấy nhiều thứ khác trên trang chủ của tôi.
+        </p>
         <Link
           href="/"
           className="focus:shadow-outline-blue inline rounded-lg border border-transparent bg-blue-600 px-4 py-2 text-sm font-medium leading-5 text-white shadow transition-colors duration-150 hover:bg-blue-700 focus:outline-none dark:hover:bg-blue-500"
