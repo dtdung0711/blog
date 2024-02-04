@@ -10,7 +10,7 @@ interface ProjectDataProps {
 const projectsData: ProjectDataProps[] = [
   {
     title: 'Rút gọn link: Rút ngắn liên kết của bạn',
-    description: 
+    description:
       'Rút gọn link là 1 công cụ rút ngắn liên kết trực tuyến. Nó được viết bằng ngôn ngữ PHP, cho phép bạn rút gọn những liên kết dài thành liên kết ngắn một cách nhanh chóng. Ngoài ra nó còn có API, giúp hỗ trợ người dùng tốt hơn.',
     href: 'https://dtdung.free.nf',
     imgSrc: '/static/images/rut-gon-link.png',
@@ -28,7 +28,7 @@ const projectsData: ProjectDataProps[] = [
     title: 'Ghi chú 1 lần: Tạo ra ghi chú tự huỷ sau khi đọc',
     description:
       'Ghi chú 1 lần là một công cụ tạo ghi chú trực tuyến. Nó có chức năng tự huỷ ghi chú sau khi có một ai khác đọc xong, bạn có thể tạo ghi chú và chia sẻ liên kết ghi chú cho người khác. Ngoài ra nó còn có chức năng thông báo về Email của chủ sở hữu ghi chú khi có ai đó đọc xong ghi chú và còn nhiều tính năng khác.',
-    imgSrc: '/static/images/ghi-chu-.png',
+    imgSrc: '/static/images/ghi-chu-1-lan.png',
     href: 'http://cristiano.rf.gd',
     techStack: ['PHP', 'Html', 'Css', 'JavaScript'],
   },
