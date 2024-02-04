@@ -1,25 +1,25 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: "Prabhu's Blog",
-  author: 'Prabhu Kiran Konda',
-  headerTitle: "Prabhu's Blog",
+  title: "Blog Cá Nhân - Duxng",
+  author: 'Đặng Dũng',
+  headerTitle: "Blog của Dũng",
   description: 'Exploring Tech and more',
   language: 'en-us',
   theme: 'dark', // system, dark or light
-  siteUrl: 'https://prabhukirankonda.vercel.app',
-  siteRepo: 'https://github.com/PrabhuKiran8790/prabhukirankonda',
-  siteLogo: '/static/images/logo.png',
+  siteUrl: 'https://blog.dtdung0711.vercel.app/',
+  siteRepo: 'https://github.com/dtdung0711/blog',
+  siteLogo: '/static/images/Duxng.png',
   socialBanner: '/static/images/twitter-card.png',
   email: 'prabhukiran426@gmail.com',
-  github: 'https://github.com/PrabhuKiran8790',
-  twitter: 'https://twitter.com/prabhukirantwt',
-  linkedin: 'https://www.linkedin.com/in/prabhukirankonda',
+  github: 'https://www.github.com/dtdung0711',
+  twitter: 'https://twitter.com/dangdunglx',
+  facebook: 'https://www.dtdung.free.nf/fb',
   locale: 'en-US',
   socialLinks: {
-    github: 'https://www.github.com/prabhukiran8790',
-    linkedin: 'https://www.linkedin.com/in/prabhukirankonda',
-    twitter: 'https://twitter.com/prabhukirantwt',
-    mail: 'mailto:prabhukiran426@gmail.com',
+    github: 'https://www.github.com/dtdung0711',
+    facebook: 'https://www.dtdung.free.nf/fb',
+    twitter: 'https://twitter.com/dangdunglx',
+    mail: 'mailto:dtdung0711@gmail.com',
   },
   analytics: {
     // If you want to use an analytics provider you have to add it to the
