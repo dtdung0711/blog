@@ -43,8 +43,8 @@
 	  'Git',
 	  'Prisma',
 	  'Drizzle',
-	  'PHP'
-	  'Html'
-	  'Css'
-	  'Js'
+	  'PHP',
+	  'Html',
+	  'Css',
+	  'Js',
 	]
