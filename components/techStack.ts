@@ -21,7 +21,6 @@
 	  | 'PHP'
 	  | 'Html'
 	  | 'Css'
-	  | 'Js'
 
 	export const techStack: TechStack[] = [
 	  'Python',
@@ -45,6 +44,5 @@
 	  'Drizzle',
 	  'PHP',
 	  'Html',
-	  'Css',
-	  'Js'
+	  'Css'
 	]
