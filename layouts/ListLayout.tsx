@@ -31,7 +31,7 @@ function Pagination({ totalPages, currentPage }: PaginationProps) {
       <nav className="flex justify-between">
         {!prevPage && (
           <button className="cursor-auto disabled:opacity-50" disabled={!prevPage}>
-            Previous
+            Trước đó
           </button>
         )}
         {prevPage && (
@@ -39,7 +39,7 @@ function Pagination({ totalPages, currentPage }: PaginationProps) {
             href={currentPage - 1 === 1 ? `/${basePath}/` : `/${basePath}/page/${currentPage - 1}`}
             rel="prev"
           >
-            Previous
+            Trước đó
           </Link>
         )}
         <span>
@@ -47,12 +47,12 @@ function Pagination({ totalPages, currentPage }: PaginationProps) {
         </span>
         {!nextPage && (
           <button className="cursor-auto disabled:opacity-50" disabled={!nextPage}>
-            Next
+            Tiếp theo
           </button>
         )}
         {nextPage && (
           <Link href={`/${basePath}/page/${currentPage + 1}`} rel="next">
-            Next
+            Tiếp theo
           </Link>
         )}
       </nav>
@@ -120,7 +120,7 @@ export default function ListLayout({
                   <dl>
                     <dt className="sr-only">Published on</dt>
                     <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
-                      <time dateTime={date}>{formatDate(date, siteMetadata.locale)}</time>
+                    <time dateTime={date}>{formatDate(date, 'vi-VN')}</time>
                     </dd>
                   </dl>
                   <div className="space-y-3 xl:col-span-3">

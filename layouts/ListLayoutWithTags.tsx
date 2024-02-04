@@ -33,7 +33,7 @@ function Pagination({ totalPages, currentPage }: PaginationProps) {
       <nav className="flex justify-between">
         {!prevPage && (
           <button className="cursor-auto disabled:opacity-50" disabled={!prevPage}>
-            Previous
+            Trước đó
           </button>
         )}
         {prevPage && (
@@ -41,7 +41,7 @@ function Pagination({ totalPages, currentPage }: PaginationProps) {
             href={currentPage - 1 === 1 ? `/${basePath}/` : `/${basePath}/page/${currentPage - 1}`}
             rel="prev"
           >
-            Previous
+            Trước đó
           </Link>
         )}
         <span>
@@ -49,12 +49,12 @@ function Pagination({ totalPages, currentPage }: PaginationProps) {
         </span>
         {!nextPage && (
           <button className="cursor-auto disabled:opacity-50" disabled={!nextPage}>
-            Next
+            Tiếp theo
           </button>
         )}
         {nextPage && (
           <Link href={`/${basePath}/page/${currentPage + 1}`} rel="next">
-            Next
+            Tiếp theo
           </Link>
         )}
       </nav>
@@ -87,13 +87,13 @@ export default function ListLayoutWithTags({
           <div className="hidden max-h-screen h-full sm:flex flex-wrap bg-gray-100 dark:bg-zinc-800/50 shadow-lg transition-colors duration-200 pt-5 rounded min-w-[280px] max-w-[280px]">
             <div className="py-4 px-6">
               {pathname.startsWith('/blog') ? (
-                <h3 className="text-primary-500 font-bold uppercase">All Posts</h3>
+                <h3 className="text-primary-500 font-bold uppercase">Tất cả bài viết</h3>
               ) : (
                 <Link
                   href={`/blog`}
                   className="font-bold uppercase text-gray-700 dark:text-gray-300 hover:text-primary-500 dark:hover:text-primary-500"
                 >
-                  All Posts
+                  Tất cả bài viết
                 </Link>
               )}
               <ul>
@@ -131,7 +131,7 @@ export default function ListLayoutWithTags({
                       <dl>
                         <dt className="sr-only">Published on</dt>
                         <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
-                          <time dateTime={date}>{formatDate(date, siteMetadata.locale)}</time>
+                        <time dateTime={date}>{formatDate(date, 'vi-VN')}</time>
                         </dd>
                       </dl>
                       <div className="space-y-3">

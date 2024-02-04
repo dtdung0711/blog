@@ -34,7 +34,7 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
                 <div>
                   <dt className="sr-only">Published on</dt>
                   <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
-                    <time dateTime={date}>{formatDate(date, siteMetadata.locale)}</time>
+                    <time dateTime={date}>{formatDate(date, 'vi-VI')}</time>
                   </dd>
                 </div>
               </dl>

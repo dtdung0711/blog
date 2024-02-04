@@ -10,7 +10,7 @@ const siteMetadata = {
   siteRepo: 'https://github.com/dtdung0711/blog',
   siteLogo: '/static/images/Duxng.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'prabhukiran426@gmail.com',
+  email: 'dtdung0711@gmail.com',
   github: 'https://www.github.com/dtdung0711',
   twitter: 'https://twitter.com/dangdunglx',
   facebook: 'https://www.dtdung.free.nf/fb',
